@@ -15,4 +15,5 @@ export class ConsulService {
     delete(idConsultation) {
         return axios.delete(this.baseUrl + "consultations/"+ idConsultation).then(res => res.data);
     }
+    
 }
